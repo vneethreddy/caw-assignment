@@ -1,0 +1,72 @@
+.ordersTableDiv {
+  border: 1px solid #c2c7cc;
+  border-radius: 12px;
+  overflow: hidden;
+
+  .p-datatable-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+    .p-input-icon-right {
+      display: flex;
+      align-items: center;
+      width: 30%;
+      .p-inputtext {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.07);
+        padding: 0.5rem 0.75rem;
+      }
+    }
+
+    .AddItemBtnDiv {
+      display: flex;
+      align-items: center;
+
+      .p-button {
+        color: #776161;
+        background: transparent;
+        border: 2px solid #8e8282;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        margin-right: 2.5rem;
+      }
+
+      .pi-print {
+        font-size: 1.5rem;
+        color: #8e8282;
+      }
+    }
+  }
+
+  .p-datatable-table {
+    .tableColumn {
+      background-color: white;
+    }
+    .p-datatable-thead {
+      .tableColumn {
+        padding: 0.7rem 1rem;
+        .p-column-title {
+          font-weight: 400;
+          color: #8e8282;
+        }
+      }
+    }
+    .p-datatable-tbody {
+      .tableColumn {
+        padding: 1.2rem 1rem;
+      }
+
+      .crossedOutText {
+        display: block;
+        margin-top: 2px;
+        text-decoration: line-through;
+      }
+
+      .highlightedColumn {
+        background-color: #f8f9fa !important;
+      }
+    }
+  }
+}

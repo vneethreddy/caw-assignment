@@ -1,0 +1,87 @@
+.AddProductDialog {
+  min-width: 800px;
+  max-width: 900px;
+  width: 55vw;
+  padding: 0 13px;
+  background: white;
+
+  .p-dialog-content {
+    padding: 0 1rem 1rem 1rem;
+    .p-input-icon-right {
+      display: flex;
+      align-items: center;
+      width: 40%;
+      .p-inputtext {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.07);
+        padding: 0.5rem 0.75rem;
+      }
+      margin-bottom: 15px;
+    }
+
+    .p-datatable-wrapper {
+      max-height: 250px;
+
+      .p-datatable-table {
+        .p-inputtext {
+          padding: 0.3em 0.5rem;
+          width: 6rem;
+          border-radius: 5px;
+        }
+
+        .tableColumn {
+          padding: 0.5rem;
+        }
+
+        .p-datatable-thead {
+          .tableColumn {
+            background-color: #eeeeee;
+            .p-column-title {
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .p-dialog-header {
+    padding: 0.5rem;
+    border-bottom: 1px solid #776161;
+    border-radius: 0;
+
+    .p-dialog-header-close:focus {
+      box-shadow: none;
+    }
+  }
+
+  .p-dialog-footer {
+    border-radius: 0;
+    padding: 1rem;
+    .footerDiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .p-button {
+        padding: 0.5em 1em;
+      }
+
+      .reviewBtn,
+      .addBtn {
+        border-radius: 20px;
+        background-color: #776161;
+        border: none;
+      }
+
+      .p-button-text {
+        color: #776161;
+      }
+
+      .p-button-text:hover {
+        background-color: transparent;
+        color: #776161;
+      }
+    }
+  }
+}

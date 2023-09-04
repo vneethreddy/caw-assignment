@@ -1,0 +1,40 @@
+.missingProductDialog {
+  min-width: 300px;
+  max-width: 700px;
+  width: 30vw;
+
+  .p-dialog-header {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    border-radius: 0;
+
+    .p-dialog-header-close:focus {
+      box-shadow: none;
+    }
+  }
+
+  .p-dialog-content {
+    display: flex;
+    padding: 0 1.5rem 1rem 1.5rem;
+    font-weight: 500;
+
+    .productName {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 70%;
+    }
+  }
+
+  .p-dialog-footer {
+    border-radius: 0;
+
+    .p-button-text {
+      color: #776161;
+    }
+
+    .p-button-text:hover {
+      background-color: transparent;
+      color: #776161;
+    }
+  }
+}

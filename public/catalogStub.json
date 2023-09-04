@@ -1,0 +1,130 @@
+[
+  {
+    "id": 9,
+    "name": "Citrus, oranges",
+    "brand": "Chit",
+    "price": 40.0,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Stone fruit",
+    "brand": "Stone",
+    "price": 77.05,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Tropical exotic",
+    "brand": "Yellow",
+    "price": 50.75,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Berries, strawberries",
+    "brand": "Blue",
+    "price": 40.67,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Melons, watermelons",
+    "brand": "Kumkum",
+    "price": 30.45,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Tomatoes, avocados",
+    "brand": "Ret",
+    "price": 25.25,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Apples, pears",
+    "brand": "Doctor",
+    "price": 25.75,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Leafy green",
+    "brand": "Leafty",
+    "price": 7.0,
+    "package": "6 * 1LB",
+    "quantity": null,
+    "currency": "USD",
+    "statusCode": null,
+    "reason": null,
+    "previous": {
+      "price": null,
+      "quantity": null
+    },
+    "prodImgUrl": "avocado.jpg"
+  }
+]

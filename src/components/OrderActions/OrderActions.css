@@ -1,0 +1,32 @@
+.actionsDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+
+  .pi,
+  .editBtn {
+    font-size: 1.1rem;
+    color: #776161;
+    cursor: pointer;
+  }
+
+  .MISS,
+  .MISSURG,
+  .APP {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .MISS {
+    color: #f59e0b;
+  }
+
+  .MISSURG {
+    color: #ef4444;
+  }
+
+  .APP {
+    color: #22c55e;
+  }
+}

@@ -1,0 +1,143 @@
+.editProductDialog {
+  min-width: 630px;
+  max-width: 700px;
+  width: 40vw;
+
+  .p-dialog-header {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    border-radius: 0;
+
+    .p-dialog-header-close:focus {
+      box-shadow: none;
+    }
+  }
+
+  .p-dialog-content {
+    .productName {
+      margin: 2px 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 90%;
+    }
+
+    .brand {
+      margin: 3px 0;
+    }
+
+    .actionDiv {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+
+      .imageDiv {
+        width: 25%;
+        margin-right: 4%;
+      }
+
+      .actions {
+        .action {
+          margin: 20px;
+        }
+
+        .priceDiv {
+          .p-inputnumber-button {
+            visibility: hidden;
+          }
+        }
+
+        .labelText {
+          width: 7rem;
+          display: inline-block;
+        }
+
+        .totalText {
+          display: inline-block;
+          width: 10rem;
+          text-align: center;
+        }
+
+        .packageText {
+          margin-left: 15px;
+        }
+
+        .p-inputnumber {
+          align-items: center;
+
+          .p-inputtext {
+            padding: 0.3em;
+            width: 6rem;
+            text-align: center;
+            border-radius: 5px;
+            margin: 0 10px;
+          }
+
+          .p-inputnumber-button {
+            border-radius: 50%;
+            background-color: #22c55e;
+            border: #22c55e;
+            padding: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin: 0;
+
+            .pi {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+
+    .reasonBox {
+      .header {
+        font-size: 0.9rem;
+      }
+
+      .p-selectbutton {
+        .p-button {
+          border-radius: 30px;
+          padding: 0.5rem 0.75rem;
+          font-size: 0.8rem;
+          margin: 0.8rem 0.8rem 0 0;
+
+          .p-button-label {
+            font-weight: 500;
+          }
+        }
+
+        .p-highlight {
+          background: #22c55e;
+          border-color: #22c55e;
+        }
+
+        .p-highlight:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  .p-dialog-footer {
+    border-radius: 0;
+
+    .p-button {
+      padding: 0.5em 1em;
+    }
+
+    .p-button-text {
+      color: #776161;
+    }
+
+    .sendBtn {
+      border-radius: 20px;
+      background-color: #776161;
+      border: none;
+    }
+
+    .p-button-text:hover {
+      color: #776161;
+      background-color: transparent;
+    }
+  }
+}
